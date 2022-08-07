@@ -1,0 +1,25 @@
+{
+  "name": "js-web-scraper",
+  "version": "1.0.0",
+  "description": "Scrape the web using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianjackson/js-web-scraper.git"
+  },
+  "author": "Kristian Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristianjackson/js-web-scraper/issues"
+  },
+  "homepage": "https://github.com/kristianjackson/js-web-scraper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1"
+  }
+}
